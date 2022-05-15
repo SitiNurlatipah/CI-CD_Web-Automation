@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Web Automation Java with maven
 
 on:
   push:
@@ -21,4 +21,4 @@ jobs:
           cache: maven
       - uses: nanasess/setup-chromedriver@v1
       - name: Test
-        run: mvn clean verify -q
+        run: mvn clean verify
