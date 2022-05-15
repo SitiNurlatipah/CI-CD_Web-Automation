@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 public class Login extends PageObject {
 
-    private By beliText(){return By.xpath("//*[@id=\"app\"]/div[1]/main/div/div/div[1]/div/div[1]");}
+    private By beliText(){return By.xpath("(//div/*[@role=\"button\"])[2]");}
 
     private By fieldEmail(){return By.xpath("//*[label[text()='Email']]/input");}
     private By fieldPassword(){return By.xpath("//*[label[text()='Password']]/input");}
